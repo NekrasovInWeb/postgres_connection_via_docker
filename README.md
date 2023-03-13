@@ -18,3 +18,11 @@ Also has their own community. By the way PostgreSQL is one of the first relation
 
 1 - https://www.postgresql.org/community/
 2 - https://medium.com/launch-school/a-brief-history-of-postgresql-36d8d392c611
+
+## What are we going to do? 
+
+Let's imagine that we need to deploy a database and assemble a table with a minimal set of data (1 row). Write it to a CSV file, unload it, and then delete the table and the database. Perhaps quite unusual and trivial task awaits us, but it will certainly help us understand the process of running the container in Docker and interact with the database at the level of SQL dialect postgresql.
+
+Before you go into the .sh-file, check out the *plan.md* file, which describes the step-by-step action plan for this sweep. 
+
+**All best and stay safe.**
