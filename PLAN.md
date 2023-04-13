@@ -4,7 +4,9 @@ You can do it from the web https://docs.docker.com/engine/install/
 or you could just hit your terminal and use the console whatever: 
   
   *sudo hdiutil attach Docker.dmg
+  
   sudo /Volumes/Docker/Docker.app/Contents/MacOS/install
+  
   sudo hdiutil detach /Volumes/Docker*
   
 This is how you can do it in the terminal on macOS. 
