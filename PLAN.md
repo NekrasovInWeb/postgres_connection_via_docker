@@ -2,13 +2,14 @@ Firstly you need to install the Docker Engine to your localhost.
 
 You can do it from the web https://docs.docker.com/engine/install/
 or you could just hit your terminal and use the console whatever: 
+'''
+    > sudo hdiutil attach Docker.dmg
   
-  *sudo hdiutil attach Docker.dmg*
+    > sudo /Volumes/Docker/Docker.app/Contents/MacOS/install
   
-  *sudo /Volumes/Docker/Docker.app/Contents/MacOS/install*
-  
-  *sudo hdiutil detach /Volumes/Docker*
-  
+    > sudo hdiutil detach /Volumes/Docker
+''' 
+ 
 This is how you can do it in the terminal on macOS. 
 
 And how Matthew McConaughey says "Alright, Alright, Alright"
