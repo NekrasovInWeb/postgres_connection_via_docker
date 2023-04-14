@@ -7,6 +7,7 @@
 # you can run it from the terminal 
 
 # for MacOS 
+
 % open -a Docker.app 
 
 # To optimize the process of enabling docker, for example in the data pipe, it is necessary to start an entrypoint-script
@@ -45,7 +46,7 @@ docker exec -it postgres_1 bash
 
 psql -U postgres # use it for the first time its actually start the Postgres connection 
 
-# then you should use 
+# After you run this command you should use 
 # psql -h localhost -p 5432 -U postgres -W 
 # because your postgres already in port 5432 on your localhost 
 
