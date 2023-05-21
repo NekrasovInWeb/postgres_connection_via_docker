@@ -50,4 +50,10 @@ psql -U postgres # use it for the first time its actually start the Postgres con
 # psql -h localhost -p 5432 -U postgres -W 
 # because your postgres already in port 5432 on your localhost 
 
+# on psql: 
+
+\l — list of all databases 
+\dt — list of all tables
+\? — help
+
 
