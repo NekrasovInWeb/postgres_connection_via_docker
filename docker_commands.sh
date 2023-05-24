@@ -50,10 +50,37 @@ psql -U postgres # use it for the first time its actually start the Postgres con
 # psql -h localhost -p 5432 -U postgres -W 
 # because your postgres already in port 5432 on your localhost 
 
+# open your database as postgres_admin 
+
+psql -U postgres_admin test_app
+
+# now you are in it and your identificator looks like 
+# [root@{connection-id}
+
 # on psql: 
 
-\l — list of all databases 
-\dt — list of all tables
-\? — help
+\l # list of all databases 
+\q # exit from postgresql client 
+\du # list of roles 
+\dt # list of all tables
+\? # help
+\d table_name # table structure 
 
+# after this step your identificator looks like 
+# [test_app=# 
+# then connect to your database by command 
+
+\connect test_app 
+
+# create the table just to see some basic parts of administating the PostgreSQL
+
+CREATE TABLE ClientBalance( 
+ client_id int PRIMARY KEY not null, 
+ client_name VARCHAR(40) not null, 
+ client_balance_date DATE not null, 
+ client_balance_value int8 not null
+);
+
+# just a basic table 
+# now you can reach the commands like \dt and \d table_name
 
